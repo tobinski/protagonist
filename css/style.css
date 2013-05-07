@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body, h1, h2, h3, h4, h5, h6, p, input, textarea {
+	font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif !important;;
+}
+
+body {
+	height:5000px
+
+}
+
+.container {
+	width:700px;
+}
+
+.paralex {
+/*	-moz-transform-origin: 50% 50%;
+-ms-transform-origin: 50% 50%;
+-o-transform-origin: 50% 50%;
+-webkit-transform-origin: 50% 50%;
+transform-origin: 50% 50%;
+*/	background:transparent;
+	border:2px solid #2d2d2d;
+
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-top-right-radius: 0;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius-topright: 0;
+
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+}
+
+/**************
+* Style 1
+*************/
+.protago-main1 {
+	background-color: transparent;;
+	padding:5px;
+}
+
+.protago-main1 h1 {
+	color: inherit;
+	font-size: 40px;
+	letter-spacing: -1px;
+	line-height: 1;
+	margin-bottom: 2px;
+}
+
+/**************
+* Style 2
+*************/
+.protago-main2 {
+ 	background-color: #EEEEEE;
+    border-radius: 6px 6px 6px 6px;
+    padding:20px;
+    margin-bottom: 10px
+}
+
+.protago-main2 h1 {
+	color: inherit;
+	font-size: 40px;
+	letter-spacing: -1px;
+	line-height: 1;
+	margin-bottom: 2px;
+}
